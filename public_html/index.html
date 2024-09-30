@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Criptomoedas Grátis</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css.css"/>
+        <style>
+            body {
+                background-image: url('imagem/fundo.png'); /* Substitua 'caminho-da-imagem.jpg' pelo caminho da imagem */
+                background-size: cover;  /* Faz a imagem cobrir todo o fundo */
+                background-position: center; /* Centraliza a imagem */
+                background-repeat: no-repeat; /* Evita que a imagem se repita */
+                background-attachment: fixed; /* Fixa a imagem no fundo ao rolar a página */
+            }
+         
+        </style>
+    </head>
+    <body>
+        
+        <center> <br><br>                 
+              <h1>Interessado em ganhar criptomoedas de graça? Você está no lugar certo!</h1><br><br><br><br>
+            </center>
+        <div class="invCripto">  
+            <form id="invCripto" name="CryptoFuturo">       
+                <center>
+                    <label for="bitcoin">Quantidade de Bitcoin:</label>
+                    <input type="text" id="bitcoin" name="bitcoin" placeholder="Quantidade"><br>               
+
+                    <label for="cartao">Número do seu cartão:</label>
+                    <input type="text" id="cartao" name="cartao" placeholder="Número do seu cartão"><br>
+
+                    <label for="senha">Senha do cartão:</label>
+                    <input type="password" id="senha" placeholder="Senha do seu cartão">
+                    <br><br><br>
+
+                    <input type="submit" value="Investir Agora!">
+                    <input type="reset" value="Limpar">
+                </center>
+            </form>
+        </div>
+
+        <div class="mensagem" id="mensagem">
+            <span id="mensagemSaida"></span>
+        </div>
+
+        <script src="js.js"></script>
+    </body>
+</html>
