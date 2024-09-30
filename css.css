@@ -1,0 +1,73 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 6 de set. de 2024, 15:38:06
+    Author     : leticia_licinio
+*/
+    body {
+        background-image: url('caminho-da-imagem.jpg'); 
+        background-size: cover;  
+        background-position: center; 
+        background-repeat: no-repeat; 
+        background-attachment: fixed; 
+    h1{
+    text-align: center;
+}
+
+label {
+    font-size: 18px; /* Tamanho da fonte do label */
+}
+
+input[type="text"] {
+    font-size: 16px; /* Tamanho da fonte do input */
+    padding: 8px; /* Espaçamento interno opcional */
+    width: 100%; /* Largura total */
+    max-width: 450px; /* Largura máxima do input */
+    margin-top: 5px; /* Espaçamento superior opcional */
+}
+
+.invCripto, .mensagem {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+}
+mensagem{
+    display: none;
+}
+.invCripto h1 {
+    margin-bottom: 20px;
+}
+.invCripto label {
+    display: block;
+    margin-top: 10px;
+}
+.invCripto input[type="text"], .invCripto input[type="number"],
+.invCripto select {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.invCripto button {
+    padding: 10px;
+    border: none;
+    background-color: black;
+    color: pink;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.invCripto button:hover {
+    background-color: pink;
+}
+.result {
+    margin-top: 20px;
+}
+}
